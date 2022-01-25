@@ -1,0 +1,12 @@
+header {
+    position: absolute;
+    z-index: 99;
+    top: 60px;
+    left: 60px;
+    right: 60px;
+
+    .content {
+        justify-content: space-between;
+        display: flex;
+    }
+}

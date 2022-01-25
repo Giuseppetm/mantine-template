@@ -1,0 +1,17 @@
+#about {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .title {
+        font-size: 6rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+
+    a {
+        font-size: inherit;
+    }
+}
