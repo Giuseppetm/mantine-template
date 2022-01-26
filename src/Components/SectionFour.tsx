@@ -1,7 +1,7 @@
-import { useMantineTheme, Accordion, Text, Container, Title, Badge } from '@mantine/core';
+import { Accordion, Text, Container, Title, Badge } from '@mantine/core';
 
 const SectionFour = () => {
-    const theme = useMantineTheme();
+    //const theme = useMantineTheme();
 
     return (
         <section id="section-one">
