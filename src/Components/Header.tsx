@@ -13,7 +13,7 @@ const Header = () => {
                     <Badge size="lg" radius={10} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>A simple portfolio template</Badge>
                 </div>
                 <div>
-                    <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>Check out Mantine</Button>
+                    <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }} onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
                 </div>
             </div>
 
@@ -25,9 +25,11 @@ const Header = () => {
                 />
             </div>
         </header>
-
-
     );
 };
 
 export default Header;
+
+const redirectToLink = (link: string): void => {
+    window.open(link, '_blank');
+};

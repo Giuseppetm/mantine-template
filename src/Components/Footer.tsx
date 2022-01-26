@@ -17,7 +17,7 @@ const Footer = () => {
                         <Text color="white" style={{ marginBottom: 20 }}>
                             You can do anything you want with this template, from portfolios to other stuff.
                         </Text>
-                        <Button variant="white">Check out Mantine</Button>
+                        <Button variant="white" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4} style={{ textAlign: 'center' }}>
@@ -47,3 +47,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const redirectToLink = (link: string): void => {
+    window.open(link, '_blank');
+};
