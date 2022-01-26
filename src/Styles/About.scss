@@ -3,6 +3,8 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
 
     .title {
         font-size: 6rem;
@@ -15,9 +17,14 @@
         font-size: inherit;
     }
 
-    .icon {
-        position: absolute;
-        bottom: 20%;
-        right: 50%;
+    @media only screen and (max-width: 768px) {
+        .mantine-RingProgress-root {
+            width: auto !important;
+            height: auto !important;
+        }
+
+        .center-mobile {
+            text-align: center;
+        }
     }
 }

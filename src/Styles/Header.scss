@@ -1,12 +1,42 @@
 header {
     position: absolute;
     z-index: 99;
-    top: 60px;
-    left: 60px;
-    right: 60px;
 
-    .content {
+    .content-desktop {
         justify-content: space-between;
         display: flex;
+    }
+
+    .content-mobile {
+        float: right;
+    }
+
+    /* Responsive header */
+    @media only screen and (min-width: 769px) {
+        .content-desktop {
+            display: flex;
+        }
+
+        .content-mobile {
+            display: none;
+        }
+
+        top: 60px;
+        left: 60px;
+        right: 60px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .content-desktop {
+            display: none;
+        }
+
+        .content-mobile {
+            display: block;
+        }
+
+        top: 30px;
+        left: 20px;
+        right: 20px;
     }
 }

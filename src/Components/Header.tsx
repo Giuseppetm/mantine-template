@@ -1,11 +1,14 @@
-import { useMantineTheme, Button, Badge } from '@mantine/core';
+import { Button, Badge, Burger } from '@mantine/core';
+import React from 'react';
 
 const Header = () => {
-    const theme = useMantineTheme();
+    //const theme = useMantineTheme();
+    const [opened, setOpened] = React.useState(false);
+    const title = opened ? 'Close navigation' : 'Open navigation';
 
     return (
         <header>
-            <div className="content">
+            <div className="content-desktop">
                 <div>
                     <Badge size="lg" radius={10} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>A simple portfolio template</Badge>
                 </div>
@@ -13,7 +16,17 @@ const Header = () => {
                     <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>Check out Mantine</Button>
                 </div>
             </div>
+
+            <div className="content-mobile">
+                <Burger
+                    opened={opened}
+                    onClick={() => setOpened((o) => !o)}
+                    title={title}
+                />
+            </div>
         </header>
+
+
     );
 };
 

@@ -1,11 +1,14 @@
 @import './Styles/About.scss';
 @import './Styles/Header.scss';
 @import './Styles/Footer.scss';
-@import './Styles/SectionOne.scss';
-@import './Styles/SectionTwo.scss';
+@import './Styles/Content.scss';
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(233, 233, 233);
+}
+
+section {
+  padding: 4rem 0rem;
 }

@@ -1,11 +1,10 @@
-import { useMantineTheme } from '@mantine/core';
 import About from "../Components/About";
 import SectionOne from '../Components/SectionOne';
 import SectionTwo from '../Components/SectionTwo';
+import SectionThree from '../Components/SectionThree';
+import SectionFour from '../Components/SectionFour';
 
 const Content = () => {
-    const theme = useMantineTheme();
-    
     return (
         <>
             <About />
@@ -13,6 +12,10 @@ const Content = () => {
             <SectionOne />
 
             <SectionTwo />
+
+            <SectionThree />
+
+            <SectionFour />
             { /* Other sections .. */ }
         </>
     )
