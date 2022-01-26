@@ -6,8 +6,7 @@ import { MantineProvider } from '@mantine/core';
 import { TypographyStylesProvider } from '@mantine/core';
 
 function App() {
-  let [colorScheme, setColorScheme] = React.useState("light");
-  let [colors, setColors] = React.useState(null);
+  let [colorScheme, setColorScheme] = React.useState("dark");
 
   return (
     <MantineProvider
