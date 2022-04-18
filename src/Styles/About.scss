@@ -3,8 +3,6 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
 
     .title {
         font-size: 6rem;
@@ -17,6 +15,12 @@
         font-size: inherit;
     }
 
+    img {
+        object-fit: contain !important;
+        width: 100% !important;
+        height: 255px !important;
+    }
+
     @media only screen and (max-width: 768px) {
         .mantine-RingProgress-root {
             width: auto !important;
@@ -25,6 +29,12 @@
 
         .center-mobile {
             text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 425px) {
+        .mantine-Container-root {
+            padding: 0px;
         }
     }
 }

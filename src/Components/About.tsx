@@ -1,4 +1,4 @@
-import { useMantineTheme, Text, Container, Anchor, RingProgress, Grid, MediaQuery } from '@mantine/core';
+import { useMantineTheme, Text, Container, Anchor, Grid, MediaQuery, Image } from '@mantine/core';
 
 const About = () => {
     const theme = useMantineTheme();
@@ -15,7 +15,7 @@ const About = () => {
                                     query="(max-width: 1200px)"
                                     styles={{ fontSize: '3.5rem !important' }}
                                 >
-                                    <h1 className="title">A simple portfolio template</h1>
+                                    <h1 className="title">A simple Mantine template</h1>
                                 </MediaQuery>
                             </Text>
                         </div>
@@ -27,16 +27,7 @@ const About = () => {
                     </Grid.Col>
 
                     <Grid.Col sm={4} md={3} lg={2} className="center-mobile">
-                        <RingProgress
-                            size={240}
-                            thickness={12}
-                            roundCaps
-                            sections={[
-                                { value: 40, color: 'cyan' },
-                                { value: 15, color: 'indigo' },
-                                { value: 15, color: 'blue' },
-                            ]}
-                        />
+                        <Image src={require('../Images/logo.png')} alt="Logo" />
                     </Grid.Col>
 
                 </Grid>

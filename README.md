@@ -1,7 +1,7 @@
-# Simple Portfolio Template
-Simple responsive portfolio template made with React and Mantine.
+# Simple Mantine Template
+Simple responsive Mantine template made with React and Mantine.
 
-![Portfolio demo](full-sample.png "Title")
+![Mantine template demo](full-sample.png "Title")
 
 ## npm scripts
 
