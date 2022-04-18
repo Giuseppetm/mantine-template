@@ -1,7 +1,7 @@
 # Simple Mantine Template
 Simple responsive Mantine template made with React and Mantine.
 
-![Sample](https://user-images.githubusercontent.com/52317197/163785819-1cb6ebd6-6a34-46ea-8f0e-cb79a5c3819c.jpeg)
+![Sample](https://user-images.githubusercontent.com/52317197/163787779-edaeaee5-b2de-4dbd-a540-d45bd7b1ef73.png)
 
 ## npm scripts
 
