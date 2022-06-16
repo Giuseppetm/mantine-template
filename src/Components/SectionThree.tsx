@@ -14,12 +14,12 @@ const SectionThree = () => {
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" padding="lg" style={{ height: '100%'}}>
                             <Card.Section>
-                                <Image src={require('../Images/card1.jfif')} alt={'sample1'} />
+                                <Image src={require('../Images/lime-travel.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
                                 <Text weight={500}>History of Dennis Farina</Text>
-                                <Badge color="pink" variant="light">
+                                <Badge color="yellow" variant="light">
                                     Cool badge
                                 </Badge>
                             </Group>
@@ -28,7 +28,7 @@ const SectionThree = () => {
                                 Discover the career of Dennis Farina and his roles in movies!
                             </Text>
 
-                            <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }}>
+                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
                                 Find out
                             </Button>
                         </Card>
@@ -37,12 +37,12 @@ const SectionThree = () => {
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" padding="lg" style={{ height: '100%' }}>
                             <Card.Section>
-                                <Image src={require('../Images/card2.jfif')} alt={'sample1'} />
+                                <Image src={require('../Images/lime-canoeing.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
                                 <Text weight={500}>Career of Dennis Farina</Text>
-                                <Badge color="green" variant="light">
+                                <Badge color="yellow" variant="light">
                                     Cool badge 2
                                 </Badge>
                             </Group>
@@ -51,7 +51,7 @@ const SectionThree = () => {
                                 Dennis Farina had a really great career with many opportunities!
                             </Text>
 
-                            <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }}>
+                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
                                 Find out
                             </Button>
                         </Card>
@@ -60,12 +60,12 @@ const SectionThree = () => {
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Card shadow="sm" padding="lg" style={{ height: '100%' }}>
                             <Card.Section>
-                                <Image src={require('../Images/card3.jpg')} alt={'sample1'} />
+                                <Image src={require('../Images/lime-message-sent.png')} alt={'sample1'} />
                             </Card.Section>
 
                             <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
                                 <Text weight={500}>Major roles of Dennis Farina</Text>
-                                <Badge color="red" variant="light">
+                                <Badge color="yellow" variant="light">
                                     Cool badge 3
                                 </Badge>
                             </Group>
@@ -74,7 +74,7 @@ const SectionThree = () => {
                                 Discover the major roles of Dennis Farina and something else!
                             </Text>
 
-                            <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }}>
+                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
                                 Find out
                             </Button>
                         </Card>

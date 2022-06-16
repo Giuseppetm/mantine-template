@@ -3,11 +3,14 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    padding-top: 0px;
 
     .title {
-        font-size: 6rem;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(45, 45, 45);
+        font-size: 7vmin;
         letter-spacing: 2px;
-        font-weight: 700;
+        font-weight: 800;
         margin-top: 0px;
     }
 

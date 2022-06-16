@@ -1,11 +1,10 @@
 import { useMantineTheme, Container, Grid, Text, Button } from '@mantine/core';
-import React from 'react';
 
 const Footer = () => {
     const theme = useMantineTheme();
     
     return (
-        <footer style={{ backgroundColor: theme.colors.blue[7]}}>
+        <footer style={{ backgroundColor: theme.colors.yellow[6]}}>
 
             <Container>
                 <Grid justify="space-around">
@@ -16,7 +15,7 @@ const Footer = () => {
                         <Text color="white" style={{ marginBottom: 20 }}>
                             You can do anything you want with this template, from portfolios to other stuff.
                         </Text>
-                        <Button variant="white" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
+                        <Button variant="white" color="black" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={3} lg={3}>

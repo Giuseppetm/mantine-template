@@ -10,10 +10,10 @@ const Header = () => {
         <header>
             <div className="content-desktop">
                 <div>
-                    <Badge size="lg" radius={10} variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>A simple Mantine template</Badge>
+                    <Badge size="lg" radius={10} color="yellow">A simple Mantine template</Badge>
                 </div>
                 <div>
-                    <Button variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }} onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
+                    <Button color="yellow" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
                 </div>
             </div>
 
