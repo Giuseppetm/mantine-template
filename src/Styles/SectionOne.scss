@@ -1,5 +1,10 @@
 #section-one {
+    h2,h3 { margin: 0; padding: 0 }
     
-
-    
+    @media only screen and (max-width: 769px) {
+        .mantine-Carousel-root {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
 }

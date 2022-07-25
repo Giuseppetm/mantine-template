@@ -1,89 +1,30 @@
-import { useMantineTheme, Container, Text, Title, Grid, Card, Image, Badge, Button, Group } from '@mantine/core';
+import { Grid, Text, Container, Title, Image, Button } from '@mantine/core';
 
 const SectionThree = () => {
-    const theme = useMantineTheme();
+    //const theme = useMantineTheme();
 
     return (
         <section id="section-two">
             <Container>
-                <Text color="black" align="center">
-                    <Title order={1} style={{ marginBottom: 30 }}>These cards are really nice</Title>
-                </Text>
-
-                <Grid>
-                    <Grid.Col xs={12} sm={4} md={4} lg={4}>
-                        <Card shadow="sm" padding="lg" style={{ height: '100%'}}>
-                            <Card.Section>
-                                <Image src={require('../Images/lime-travel.png')} alt={'sample1'} />
-                            </Card.Section>
-
-                            <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>History of Dennis Farina</Text>
-                                <Badge color="yellow" variant="light">
-                                    Cool badge
-                                </Badge>
-                            </Group>
-
-                            <Text size="sm">
-                                Discover the career of Dennis Farina and his roles in movies!
-                            </Text>
-
-                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
-                                Find out
-                            </Button>
-                        </Card>
+                <Grid justify="space-around">
+                    <Grid.Col xs={6} sm={4} md={4} lg={4}>
+                        <Image src={require('../Images/lime-bicycle-riding.png')} alt={'sample2'} style={{ width: '100%', maxWidth: 300 }} />
                     </Grid.Col>
-
-                    <Grid.Col xs={12} sm={4} md={4} lg={4}>
-                        <Card shadow="sm" padding="lg" style={{ height: '100%' }}>
-                            <Card.Section>
-                                <Image src={require('../Images/lime-canoeing.png')} alt={'sample1'} />
-                            </Card.Section>
-
-                            <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>Career of Dennis Farina</Text>
-                                <Badge color="yellow" variant="light">
-                                    Cool badge 2
-                                </Badge>
-                            </Group>
-
-                            <Text size="sm">
-                                Dennis Farina had a really great career with many opportunities!
+                    <Grid.Col xs={6} sm={8} md={8} lg={8}>
+                        <div style={{ marginBottom: 20 }}>
+                            <Text color="black">
+                                <Title order={1}>Put something here too</Title>
+                                Dennis Farina is unique among thespians in that he was one of the few to achieve success as a "late-bloomer." 
+                                He did not start acting until he was 37 years old, after stints in the military and 18 years on the Chicago Police Department.
                             </Text>
-
-                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
-                                Find out
-                            </Button>
-                        </Card>
-                    </Grid.Col>
-
-                    <Grid.Col xs={12} sm={4} md={4} lg={4}>
-                        <Card shadow="sm" padding="lg" style={{ height: '100%' }}>
-                            <Card.Section>
-                                <Image src={require('../Images/lime-message-sent.png')} alt={'sample1'} />
-                            </Card.Section>
-
-                            <Group position="apart" style={{ marginBottom: 5, marginTop: theme.spacing.sm }}>
-                                <Text weight={500}>Major roles of Dennis Farina</Text>
-                                <Badge color="yellow" variant="light">
-                                    Cool badge 3
-                                </Badge>
-                            </Group>
-
-                            <Text size="sm">
-                                Discover the major roles of Dennis Farina and something else!
-                            </Text>
-
-                            <Button variant="light" color="yellow" fullWidth style={{ marginTop: 14 }}>
-                                Find out
-                            </Button>
-                        </Card>
+                        </div>
+                        <Button color="yellow">Tell me more</Button>
                     </Grid.Col>
                 </Grid>
-
             </Container>
         </section>
     );
+
 };
 
 export default SectionThree;
