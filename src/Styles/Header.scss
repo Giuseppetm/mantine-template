@@ -2,6 +2,28 @@ header {
     position: absolute;
     z-index: 99;
 
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+
+        .navbar-item {
+            cursor: pointer;
+            font-weight: 500;
+            
+                a {
+                    color: #2d2d2d;
+                    transition: all 0.1s ease;
+                }
+            
+                a:hover {
+                    color: #fab005;
+                    text-decoration: none;
+                }
+        }
+    }
+
     .content-desktop {
         justify-content: space-between;
         display: flex;
@@ -9,7 +31,9 @@ header {
     }
 
     .content-mobile {
-        float: right;
+        .burger-button {
+            float: right;
+        }
     }
 
     /* Responsive header */
@@ -39,5 +63,20 @@ header {
         top: 30px;
         left: 20px;
         right: 20px;
+    }
+}
+
+.menu {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between !important;
+    gap: 30px;
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .menu-item {}
     }
 }

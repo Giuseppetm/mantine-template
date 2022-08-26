@@ -5,7 +5,7 @@ const SectionFive = () => {
     //const theme = useMantineTheme();
 
     return (
-        <section id="section-one">
+        <section id="section-five">
             <Container>
                 <div style={{ marginBottom: 30 }}>
                     <div style={{ textAlign: 'left' }}><Badge variant="filled" color="yellow">FAQs</Badge></div>

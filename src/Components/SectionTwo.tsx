@@ -4,7 +4,7 @@ const SectionTwo = () => {
     //const theme = useMantineTheme();
 
     return (
-        <section id="section-one">
+        <section id="section-two">
             <Container>
                 <Grid justify="space-around">
                     <Grid.Col xs={6} sm={8} md={8} lg={8}>

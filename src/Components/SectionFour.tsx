@@ -4,7 +4,7 @@ const SectionFour = () => {
     const theme = useMantineTheme();
 
     return (
-        <section id="section-two">
+        <section id="section-four">
             <Container>
                 <Text color="black" align="center">
                     <Title order={1} mb="30px">These cards are really nice</Title>
