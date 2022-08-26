@@ -19,8 +19,12 @@ const SectionOne = () => {
     return (
         <section id="section-one">
             <Container>
-                <Text color="black" align="center" mb="25px">
+                <Text color="black" align="center" mb="15px">
                     <Title order={1}>Explain something in this carousel</Title>
+                </Text>
+
+                <Text color="black" align="center" mb="25px">
+                    You can insert images or some texts if you need.
                 </Text>
 
                 <Carousel

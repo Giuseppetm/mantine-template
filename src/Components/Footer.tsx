@@ -18,7 +18,7 @@ const Footer = () => {
                         </Text>
 
                         <Text color="white" mb="20px">
-                            You can find the illustrations I used on <Anchor href="https://icons8.com/" style={{ color: "hwb(238deg 42% 16%)" }}>www.icons8.com</Anchor>
+                            You can find the illustrations I used on <Anchor href="https://icons8.com/">www.icons8.com</Anchor>
                         </Text>
 
                         <Button variant="white" color="black" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
